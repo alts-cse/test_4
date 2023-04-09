@@ -1,0 +1,177 @@
+
+#particles-js,
+#particles2-js,
+#particles3-js,
+#particles4-js {
+top: 0%;
+left: 0%;
+    z-index: 9999;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+
+    height: 600px;
+    border: none;
+    margin-left: 0px;
+    margin-right: 40px;
+    background: transparent;
+
+
+}
+
+#maintext {
+    position: absolute;
+    top: 70%;
+    left:15%;
+    right: 15%;
+    padding: 20px;
+    background: #18122be7;
+    text-transform: uppercase;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 15px solid rgb(242, 29, 10);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.text1 {
+    
+    opacity: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    border-bottom: 3px solid #ffffff;
+ 
+
+
+}
+
+.bg-img {
+
+    height: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+.texttype h1 {
+    font-family: 'Play', sans-serif;
+    position: absolute;
+    top: 100%;
+    left: 27%;
+    font-size: 30px;
+    color: rgb(250, 250, 250);
+    margin-right: 20px;
+    background: transparent;
+   
+}
+
+#element{
+    color: #cc496a;
+    text-transform: uppercase;
+    font-weight: bold;
+   font-family: 'Ubuntu Mono', monospace;
+    font-size: larger;
+    
+}
+
+.navbardemo{
+    margin-top: 10px;
+    z-index: 10000000000000000;
+ 
+}
+.containertop{
+    display: flexbox;
+    flex-direction: row;
+ margin-left: 40px;
+ flex-direction: row;
+    
+    justify-content: center;
+}
+
+.bdr{
+    display: inline;
+    border-right: 2px solid rgb(83, 81, 81);
+    padding: 20px;
+}
+.counselling{
+    font-size: 20px;
+    padding: 20px;
+    display: inline;
+}
+.counselling span{
+    display: inline;
+    font-size: 30px;
+color: red;
+font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 630px) {
+    #maintext {
+        font-size: 14px !important;
+        margin-right: 80px;
+        top: 60%;
+        left: 10%;
+        right: 10%;
+      
+    }
+
+    .text1{
+        font-size: 25px;
+        text-align: center;
+    }
+ 
+.texttype h1{
+    top: 90%;
+    font-size: 14px;
+    left: 17%;
+}
+    .bg-img {
+        height: 600px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+ 
+
+
+    .carousel1 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .item{
+        font-size: 20px;
+    }
+
+    .container1{
+        font-size: 15px;
+    }
+
+    .smallimg{
+        margin-left: 15%;
+        height: 70px;
+        width: 70px ;
+    }
+}
+
+@media screen and (max-width: 100px) and (min-width: 630px){
+    .text1{
+        font-size: 40px;
+        text-align: center;
+    
+    }
+    #maintext{
+        right: 10%;
+    }
+
+    .texttype h1{
+        font-size: 18px;
+        top: 100%;
+        right: 10%;
+    }
+    .container55{
+        padding-top:300px;
+      }
+}
+
